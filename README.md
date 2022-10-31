@@ -8,4 +8,9 @@
  
  Link to the dataset:-https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small
  
- 
+ ## Training the neural networks
+
+Once the data is pre-processed, the neural networks are trained, utilizing transfer learning from ResNet50. More additional layers are added in the last layers that replace the architecture and weights from ResNet50 in order to fine-tune the network model to serve the current issue. The figure shows the ResNet50 architecture.
+
+![resnet](https://user-images.githubusercontent.com/68815179/199084513-80b644fc-3adc-4b20-b553-8e2e1ba81538.png)
+
