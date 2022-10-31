@@ -14,3 +14,9 @@ Once the data is pre-processed, the neural networks are trained, utilizing trans
 
 ![resnet](https://user-images.githubusercontent.com/68815179/199084513-80b644fc-3adc-4b20-b553-8e2e1ba81538.png)
 
+## Recommendation generation
+
+- To generate recommendations, our proposed approach uses Sklearn Nearest neighbours(KNN). This allows us to find the nearest neighbours for the given input image. The top 6 recommendations are extracted from the database and their images are displayed.
+- The concept of Transfer learning is used to overcome the issues of the small size Fashion dataset. Therefore we pre-train the classification models on the DeepFashion dataset that consists of 44,441 garment images. 
+- The networks are trained and validated on the dataset taken. The training results show a great accuracy of the model with low error, loss and good f-score.
+
