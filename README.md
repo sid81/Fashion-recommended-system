@@ -20,3 +20,16 @@ Once the data is pre-processed, the neural networks are trained, utilizing trans
 - The concept of Transfer learning is used to overcome the issues of the small size Fashion dataset. Therefore we pre-train the classification models on the DeepFashion dataset that consists of 44,441 garment images. 
 - The networks are trained and validated on the dataset taken. The training results show a great accuracy of the model with low error, loss and good f-score.
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/68815179/199086633-e52519b8-bb29-458d-9b16-71da9937bacd.png)
+
+Different outfits generated for the given input image
+
+![image](https://user-images.githubusercontent.com/68815179/199087048-1c5d857e-8aae-4a13-97db-33ea674e94a7.png)
+
+![image](https://user-images.githubusercontent.com/68815179/199087165-a1c0e16b-a787-4a46-95aa-31ae39e66110.png)
+
+![image](https://user-images.githubusercontent.com/68815179/199087374-f4f2c861-1bcf-4164-ad1c-d91b23131e98.png)
+
+![image](https://user-images.githubusercontent.com/68815179/199087493-d147d80a-0939-43a1-a867-f9b8f5738ac3.png)
